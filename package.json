@@ -1,0 +1,17 @@
+{
+  "name": "restaurant-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build-production": "cd client/ && npm install --only=dev && npm install && npm run build"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "mongoose": "^4.9.9",
+    "morgan": "~1.8.1"
+  }
+}
